@@ -1,0 +1,145 @@
+ .box{
+    width:100%;
+    /*height:100vh;*/
+    height: 100%;
+   /* padding-top: 1.5rem;*/
+    background: #EFEFF4;
+    text-align: left;
+    overflow: auto;
+   
+   }
+   .head{
+    width:100%;
+    height: 1.43rem;
+    /*position: fixed;*/
+    top:0;
+  }
+  .title{ 
+    width:100%;
+    height: 1.3rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size:0.35rem;
+    color: #fff;
+    background: -webkit-linear-gradient(top, #2C2D31, #101013);
+    opacity: 0.9;
+  }
+  .hui{
+    width:100%;
+    height: 0.23rem;
+    background: #EFEFF4;
+  }
+  .backto{
+    position: fixed;
+    top:0.3rem;
+    z-index: 1000;
+    color: #fff;
+    display: flex;
+    margin-left: 0.16rem;
+   }
+   .backto img{
+    width:0.16rem;
+    height: 0.28rem;
+    background-size: 100% 100%;
+    margin-top: 0.34rem;
+    margin-right: 0.08rem;
+   }
+   .backto div{
+    margin-top: 0.25rem;
+    font-size: 0.32rem;
+   }
+   .free{
+    width:100%;
+    height: 1.5rem;
+   }
+
+   li{
+    width:95%;
+    height: 2.12rem;
+    background: #fff;
+    padding-top: 0.23rem;
+    margin-bottom: 0.23rem;
+    padding-left: 0.31rem;
+    /*border:1px solid red;*/
+   }
+   .left{
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom: 0.23rem;
+   }
+  .zhandian{
+    font-size:0.32rem;
+    color: #333;
+    font-weight: bold;
+  }
+  .palce{
+    font-size:0.19rem;
+    color: #666;
+    margin-top: 0.2rem;
+  }
+  .down{
+    padding-top: 0.2rem;
+    padding-bottom: 0.42rem;
+    font-size:0.28rem;
+    display: flex;
+  }
+  .money{
+    font-size: 0.32rem;
+    color:#666;
+  }
+  .time{
+    display: inline-block;
+    color: #666;
+    width:0.7rem;
+    height: 0.3rem;
+    text-align: center;
+  }
+  .jisuan{
+    display: flex;
+    margin-left: 1.5rem;
+    font-size: 0.32rem;
+  }
+  input{
+    border:none;
+    width:1.09rem;
+    height:0.47rem;
+    padding-left: 0.1rem;
+    color:#333;
+    font-size: 0.28rem;
+    border:1px solid #e5e5e5;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+  }
+  .add,.jian{
+    width:0.38rem;
+    height: 0.38rem;
+    background:   #5B8CFF ;
+    color: #fff;
+    text-align: center;
+    line-height: 0.38rem;
+  }
+  .submit{
+    width:100%;
+    height: 0.9rem;
+    background: #5B8CFF;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #fff;
+    font-size: 0.32rem;
+    margin-top:  0.8rem;
+  }
+  .toast{
+    width:3.75rem;
+    height:0.94rem;
+    background:#000;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    line-height: 0.94rem;
+    font-size: 0.27rem;
+    border-radius: 0.08rem;
+    position: fixed;
+    top:4.59rem;
+    z-index: 1000;
+    left:2rem;
+   }
