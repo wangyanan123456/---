@@ -2,7 +2,7 @@
     width:100%;
     background: #EFEFF4;
     text-align: left;
-    padding-top: 1.5rem;
+    padding-top: 1.65rem;
    }
    .head{
     width:100%;
@@ -52,7 +52,7 @@
 
    li{
     width:95%;
-    height: 2.12rem;
+    height: 2.32rem;
     background: #fff;
     padding-top: 0.23rem;
     margin-bottom: 0.23rem;
@@ -61,21 +61,20 @@
    }
    .left{
     border-bottom:1px solid #e5e5e5;
-    padding-bottom: 0.23rem;
+    padding-bottom: 0.28rem;
    }
   .zhandian{
     font-size:0.32rem;
     color: #333;
-    font-weight: bold;
   }
   .palce{
     font-size:0.19rem;
     color: #666;
-    margin-top: 0.2rem;
+    margin-top: 0.3rem;
   }
   .down{
     padding-top: 0.2rem;
-    padding-bottom: 0.42rem;
+    padding-bottom: 0.45rem;
     font-size:0.28rem;
     display: flex;
   }

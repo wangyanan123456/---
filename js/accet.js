@@ -16,11 +16,9 @@ $(document).ready(function(){
  		
  		if(parseInt($(this).find('span').text()) >= parseInt($(this).find('input').val())){
  			
- 		}else{
- 			
+ 		}else{	
  			count++
-
-  			
+	
  		}
  	})
  	if(count>0 ||  $('input').val()<0){

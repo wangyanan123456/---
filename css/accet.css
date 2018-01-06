@@ -1,6 +1,6 @@
  .box{
     width:100%;
-    /*height:100vh;*/
+    min-height:83vh;
     /*height: 100%;*/
     padding-top: 1.86rem;
     background: #EFEFF4;
@@ -72,21 +72,20 @@
 
    li{
     width:95%;
-    height: 2.12rem;
+    height: 2.22rem;
     background: #fff;
-    padding-top: 0.23rem;
-    margin-bottom: 0.23rem;
+    padding-top: 0.2rem;
+    margin-bottom: 0.18rem;
     padding-left: 0.31rem;
     /*border:1px solid red;*/
    }
    .left{
     border-bottom:1px solid #e5e5e5;
-    padding-bottom: 0.23rem;
+    padding-bottom: 0.34rem;
    }
   .zhandian{
     font-size:0.32rem;
     color: #333;
-    font-weight: bold;
   }
   .palce{
     font-size:0.19rem;
@@ -95,9 +94,10 @@
   }
   .down{
     padding-top: 0.2rem;
-    padding-bottom: 0.42rem;
+    padding-bottom: 0.45rem;
     font-size:0.28rem;
     display: flex;
+    /*background: red;*/
   }
   .money{
     font-size: 0.32rem;
@@ -117,14 +117,15 @@
   }
   input{
     border:none;
-    width:1.09rem;
-    height:0.47rem;
+    width:1.33rem;
+    height:0.53rem;
     color:#333;
     font-size: 0.28rem;
     border:1px solid #e5e5e5;
     margin-left: 0.05rem;
     margin-right: 0.05rem;
     text-align: center;
+    margin-top: -0.05rem;
   }
   .add,.jian{
     width:0.38rem;
